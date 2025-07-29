@@ -1,0 +1,21 @@
+# Node.js
+/node_modules
+/dist
+.env
+
+# Python
+/venv
+__pycache__/
+/*.py[cod]
+*.pyo
+*.pyd
+
+# React
+/build
+/*.log
+.DS_Store
+
+# IDEs and OS files
+.vscode/
+.idea/
+*.swp
