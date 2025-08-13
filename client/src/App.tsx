@@ -19,6 +19,7 @@ const App: React.FC = () => (
   <Router>
     <Layout>
       <Routes>
+        {/* Public Routes */}
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
@@ -79,4 +80,3 @@ const App: React.FC = () => (
 );
 
 export default App;
-
